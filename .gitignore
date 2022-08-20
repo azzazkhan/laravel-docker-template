@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+/vendor
+npm-debug.log
+yarn-error.log
+
+# Development cache
+/public/hot
+/public/storage
+/public/avatars
+/storage/*.key
+.phpunit.result.cache
+docker-compose.override.yml
+docker-compose.*
+
+# Local environment configurations
+.env
+.env.local
+.env.*.local
+.env.backup
+# *.sh
+
+# Development
+Homestead.json
+Homestead.yaml
+
+# Editor configurations
+/.idea
+/.vscode
+
+# Ignore generated credentials from actions
+gha-creds-*.json

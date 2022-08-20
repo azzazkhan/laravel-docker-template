@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Docker configurations
+Dockerfile/
+.dockerignore
+docker-compose.*
+
+# Development cache
+public/hot
+public/cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Framework cache
+bootstrap/cache/**
+storage/app/**
+!storage/app/public
+storage/app/public/**
+storage/framework/**
+!storage/framework/cache
+!storage/framework/sessions
+!storage/framework/testing
+!storage/framework/views
+storage/framework/cache/**
+storage/framework/cache/data/**
+!storage/framework/cache/data
+storage/framework/sessions/**
+storage/framework/testing/**
+storage/framework/views/**
+storage/logs/**
+
+# IDE settings
+/.idea
+/.vscode
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Local helper scripts
+*.sh
